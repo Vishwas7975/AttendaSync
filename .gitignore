@@ -1,0 +1,18 @@
+# Secrets — never commit these
+.env
+credentials.json
+
+# Real employee data / attendance records (contains PII)
+employee_map.csv
+attendance.db
+
+# Generated logs (daily logs + scheduler log)
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+.vscode/
